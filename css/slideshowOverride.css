@@ -1,0 +1,91 @@
+
+
+.ui-widget-content {
+  border: 1px solid #dfd9c3;
+  background: #f5f3e5 url("images/ui-bg_highlight-hard_100_f5f3e5_1x100.png") 50% top repeat-x;
+  color: #312e25;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: 1px solid #327E04;
+  background: #459e00 url("images/ui-bg_highlight-hard_15_459e00_1x100.png") 50% 50% repeat-x;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: 1px solid #327E04;
+  background: #03a9f4 url("images/ui-bg_highlight-hard_15_459e00_1x100.png") 50% 50% repeat-x;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/*.ui-state-default .ui-icon {
+  background-image: url(images/ui-icons_eeeeee_256x240.png);
+}*/
+
+
+.ui-widget-content {
+  border: 1px solid #dfd9c3;
+  background: #fff url("images/ui-bg_highlight-hard_100_f5f3e5_1x100.png") 50% top repeat-x;
+  color: #312e25;
+}
+
+.ui-widget-header {
+  
+  
+border: 0px;
+background:  url('../img/libquestTreeLogo2.png') no-repeat ;
+  
+	background-size: 80px 80px;
+  background-position: 2% 50%;
+  color: #433f38;
+  font-weight: bold;
+}
+
+.ui-dialog .ui-dialog-title {
+  float: left;
+  margin: .4em .4em;
+  margin-left:6em;
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#links{
+
+text-align: center;
+margin-bottom:1.5em;
+
+}
+
+#links a img {
+
+margin-right:.5em;
+margin-top:1.5em;
+border-radius:50%;
+width:200px;
+height:200px;
+
+box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+
+
+@media only screen and (max-width : 580px) {
+
+
+#links a img {
+
+margin-right:.5em;
+margin-top:1.5em;
+border-radius:50%;
+width:100px;
+height:100px;
+
+
+}
+
+  }
