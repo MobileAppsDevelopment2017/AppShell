@@ -32,7 +32,7 @@ function getFullRecipe() {
             var recipecopy = recipe.copy;
             var recipeImage = baseURL + recipe.stepImage;
 
-            var contentHeader = '<div class="card orange center"><h4>' + recipename + '</h4><div class="card-stacked"><div class="card-content"><p>' + recipecopy + '</p></div></div></div>';
+            var contentHeader = '<div class="card teal center"><h4>' + recipename + '</h4><div class="card-stacked"><div class="card-content"><p>' + recipecopy + '</p></div></div></div>';
 
             $("#stepsContent").append(contentHeader);
 
@@ -65,7 +65,7 @@ function getFullRecipe() {
 
 
 
-            var content = '<div class="card orange lighten-4"> <div class="card-content black-text"> <span class="card-title"></span> <h3>Step ' + j + '</h3> <div class="row"> <div class="col s6"> <p>' + copy + '</p> </div> <div class="col s6"> <img class="responsive-img" src="' + stepImage + '" > </div> </div> </div> </div>';
+            var content = '<div class="card teal lighten-4"> <div class="card-content black-text"> <span class="card-title"></span> <h3>Step ' + j + '</h3> <div class="row"> <div class="col s6"> <p>' + copy + '</p> </div> <div class="col s6"> <img class="responsive-img" src="' + stepImage + '" > </div> </div> </div> </div>';
 
 
 
