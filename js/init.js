@@ -1,5 +1,6 @@
 //initialise register screen on first run
-getScreenContent('_register');
+//removed--getScreenContent('_register');
+changeAppPage("_register");
 
 $(".navBack").css("visibility", "hidden");
 
