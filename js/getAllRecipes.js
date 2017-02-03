@@ -41,7 +41,7 @@ $('.progressWrapper').css({"visibility": "visible"});
             var stepImage = baseURL+item.stepImage;
 
 
-            var content = '<div class="card medium"><div class="card-image"><img class="stepsPreviewImg" src="'+stepImage+'"></div><div class="card-content black-text"><span class="activator card-title-full-rec ">'+name+'<i class="material-icons right">more_vert</i></span></div><div class="card-reveal"><span class="card-title grey-text text-darken-4">'+name+'<i class="material-icons right">close</i></span><p>'+copy+'</p><div class="card-action"><a class="_viewFullRecipe" _itemid="'+recipe_id+'" href="#">View Recipe</a></div></div><a class="_viewFullRecipe" _itemid="'+recipe_id+'">View Recipe</a></div>';
+            var content = '<div class="card medium"><div class="card-image"><img class="stepsPreviewImg" src="'+stepImage+'"></div><div class="card-content black-text"><span class="activator card-title-full-rec ">'+name+'<i class="material-icons right">more_vert</i></span></div><div class="card-reveal"><span class="card-title grey-text text-darken-4">'+name+'<i class="material-icons right">close</i></span><p>'+copy+'</p><div class="card-action"><a class="_viewFullRecipe" _itemid="'+recipe_id+'" href="#">View Recipe</a></div></div><a class="_viewFullRecipe" _itemid="'+recipe_id+'"><span><i class="material-icons">&#xE8F4;</i></span>View Recipe</a></div>';
 
             //var content = '<div class="card teal lighten-2"><div class="card-content white-text"><span class="card-title"></span><h3>'+name+'</h3><br><p>' + copy + '</p><br><img height="150" width="150" src="'+stepImage+'" /></div><div class="card-action"><a class="_viewFullRecipe" _itemid="'+recipe_id+'" href="#">View Recipe</a></div></div>';
 
